@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PWA E-commerce Store</title>
+</head>
+
+<body>
+    <header>
+        <h1>My E-commerce Store</h1>
+    </header>
+
+    <main>
+        <section class="login-form">
+            <form class="Form">
+                <h1>Login Page</h1>
+                <div class="form-group">
+                    <input id="First name" type="text" placeholder="First name" name="first name">
+                </div>
+                <div class="form-group">
+                    <input id="Last name" type="text" placeholder="Last name" name="last name">
+                </div>
+
+                <div class="form-group">
+                    <ion-icon name="mail"></ion-icon>
+                    <input " id=" Email ID" type="email" placeholder="Email ID" name="email">
+                </div>
+                <div class="form-group">
+                    <ion-icon name="eye-off"></ion-icon>
+                    <input " id=" Password" type="password" placeholder="Password" name="password">
+                </div>
+
+                
+                <div class="forget">
+                    <label for="">
+                        <input type="checkbox" />
+                        Save login information
+                        <a href="#">Forget password?</a>
+                    </label>
+                </div>
+                
+                <div class="form-group" id="button" >
+                    <button   type="submit" class="btn">Submit</button>
+                    <script src="app.js" defer></script>
+                </div>
+                <div class="Create-account">
+                    <label for="">
+                        Don't have an account? 
+                        <a href="#">Create account</a></label>
+                </div>
+            </form>
+        </section>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <section id="products"></section>
+
+        <section id="cart">
+            <h2><b>Your Shopping Cart</b></h2>
+            <ul id="cart-list"></ul>
+        </section>
+
+    </main>
+
+    <script src="app.js" defer></script>
+    <script src="cart.js" defer></script>
+</body>
+
+</html>
